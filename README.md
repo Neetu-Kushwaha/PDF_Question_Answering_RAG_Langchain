@@ -14,36 +14,10 @@ This project is designed to process semi-structured documents and perform questi
 
    When running the scripts, you can specify command line arguments to customize the behavior:
 
-   - `--filename`: Path to the PDF file to be processed. Default is `./data/attention.pdf`.
-   - `--path`: Path to the directory containing the PDF file. Default is `/Users/nkushwaha/PycharmProjects/semi_structured/Semi_structured_RAG_Langchain/`.
-
-
+   - `--filename`: Path to the PDF file to be processed. Default is `attention.pdf`.
+   - `--path`: Path to the directory containing the PDF file. Default is `./data/`.
 
 ## Usage
-
-### PDF Processing
-
-Use the provided `pdf_processor.py` script to parse PDF documents and extract text and tables.
-
-### Element Class
-
-The `element.py` script contains the `Element` class, which is a Pydantic model used to represent elements extracted from PDFs.
-
-### Text Processing
-
-Basic text processing functions are provided in the `text_processing.py` script.
-
-### Summarization
-
-Summarization of text and tables can be performed using the `summarization.py` script.
-
-### Question Generation
-
-Question answering can be performed using the `generation.py` script, which generates responses based on prompts and embeddings.
-
-### Embedding
-
-Text embeddings can be generated using the `embedding.py` script.
 
 ### Main Script
 
