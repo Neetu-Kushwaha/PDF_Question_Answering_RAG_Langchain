@@ -5,13 +5,13 @@ This project is designed to process semi-structured documents and perform questi
 ## Installation
 
 1. #### Install the necessary packages 
-pip install langchain unstructured[all-docs] pydantic lxml langchainhub
+   ! pip install langchain unstructured[all-docs] pydantic lxml langchainhub
 
 #### Additionally, ensure you have tesseract and poppler installed
-brew install tesseract poppler
+   ! brew install tesseract poppler
 
 #### Alternatively, Install the required dependencies listed in the requirements.txt file
-pip install -r requirements.txt
+   ! pip install -r requirements.txt
 
 3. #### Command Line Arguments
 
