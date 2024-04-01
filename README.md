@@ -4,13 +4,16 @@ This project is designed to process semi-structured documents and perform questi
 
 ## Installation
 
-1. Install the required dependencies listed in the `requirements.txt` file:
+1. # Install the necessary packages 
+pip install langchain unstructured[all-docs] pydantic lxml langchainhub
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+# Additionally, ensure you have tesseract and poppler installed
+brew install tesseract poppler
 
-2. ### Command Line Arguments
+# Alternatively, Install the required dependencies listed in the requirements.txt file
+pip install -r requirements.txt
+
+3. ### Command Line Arguments
 
    When running the scripts, you can specify command line arguments to customize the behavior:
 
