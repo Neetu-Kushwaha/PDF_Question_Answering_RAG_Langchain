@@ -4,16 +4,16 @@ This project is designed to process semi-structured documents and perform questi
 
 ## Installation
 
-1. ### Install the necessary packages 
+1. #### Install the necessary packages 
 pip install langchain unstructured[all-docs] pydantic lxml langchainhub
 
-### Additionally, ensure you have tesseract and poppler installed
+#### Additionally, ensure you have tesseract and poppler installed
 brew install tesseract poppler
 
-### Alternatively, Install the required dependencies listed in the requirements.txt file
+#### Alternatively, Install the required dependencies listed in the requirements.txt file
 pip install -r requirements.txt
 
-3. ### Command Line Arguments
+3. #### Command Line Arguments
 
    When running the scripts, you can specify command line arguments to customize the behavior:
 
@@ -22,11 +22,11 @@ pip install -r requirements.txt
 
 ## Usage
 
-### Main Script
+#### Main Script
 
 The `main.py` script orchestrates the entire process, from reading PDF files to generating answers to user questions.
 
-### Running the Main Script
+#### Running the Main Script
 
 To run the main script, use the following command:
 
